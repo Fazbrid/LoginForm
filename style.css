@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+div.Hero{
+    flex: 1;
+    background-color: green;
+    background-image: url(vishal-banik-V6T99SnUCyA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    color: white;
+    margin-top: auto;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.logo{
+    color: white;
+}
+
+a{
+    color: white;
+    opacity: 75%;
+}
+div.Formulario{
+    flex: 2;
+}
